@@ -7,6 +7,7 @@
 //
 
 #import "HBAppDelegate.h"
+#import "HollersViewController.h"
 
 @implementation HBAppDelegate
 
@@ -18,11 +19,19 @@
     [super dealloc];
 }
 
+#pragma mark - Application lifecycle methods
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    HollersViewController *hvc = [[HollersViewController alloc]init];
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:hvc];
+    [hvc release];
+    [[self window] setRootViewController:navController];
+    [navController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

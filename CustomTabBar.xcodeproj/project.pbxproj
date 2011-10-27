@@ -13,6 +13,37 @@
 		D0B98008145600A800D444B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B98006145600A800D444B2 /* InfoPlist.strings */; };
 		D0B9800A145600A800D444B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B98009145600A800D444B2 /* main.m */; };
 		D0B9800E145600A800D444B2 /* HBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9800D145600A800D444B2 /* HBAppDelegate.m */; };
+		D0B98017145600EC00D444B2 /* HBCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B98015145600EC00D444B2 /* HBCustomTabBar.m */; };
+		D0B98018145600EC00D444B2 /* HBCustomTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B98016145600EC00D444B2 /* HBCustomTabBar.xib */; };
+		D0B9801B145600F900D444B2 /* HBTabBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9801A145600F900D444B2 /* HBTabBarManager.m */; };
+		D0B980331456020100D444B2 /* tabBarGroup.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9801D1456020100D444B2 /* tabBarGroup.png */; };
+		D0B980341456020100D444B2 /* tabBarGroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9801E1456020100D444B2 /* tabBarGroup@2x.png */; };
+		D0B980351456020100D444B2 /* tabBarGroupSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9801F1456020100D444B2 /* tabBarGroupSelected.png */; };
+		D0B980361456020100D444B2 /* tabBarGroupSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980201456020100D444B2 /* tabBarGroupSelected@2x.png */; };
+		D0B980371456020100D444B2 /* tabBarGroups.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980211456020100D444B2 /* tabBarGroups.png */; };
+		D0B980381456020100D444B2 /* tabBarGroups@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980221456020100D444B2 /* tabBarGroups@2x.png */; };
+		D0B980391456020100D444B2 /* tabBarGroupsSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980231456020100D444B2 /* tabBarGroupsSelected.png */; };
+		D0B9803A1456020100D444B2 /* tabBarGroupsSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980241456020100D444B2 /* tabBarGroupsSelected@2x.png */; };
+		D0B9803B1456020100D444B2 /* tabBarHollers.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980251456020100D444B2 /* tabBarHollers.png */; };
+		D0B9803C1456020100D444B2 /* tabBarHollers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980261456020100D444B2 /* tabBarHollers@2x.png */; };
+		D0B9803D1456020100D444B2 /* tabBarHollersSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980271456020100D444B2 /* tabBarHollersSelected.png */; };
+		D0B9803E1456020100D444B2 /* tabBarHollersSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980281456020100D444B2 /* tabBarHollersSelected@2x.png */; };
+		D0B9803F1456020100D444B2 /* tabBarHollerLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980291456020100D444B2 /* tabBarHollerLogo.png */; };
+		D0B980401456020100D444B2 /* tabBarHollerLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9802A1456020100D444B2 /* tabBarHollerLogo@2x.png */; };
+		D0B980411456020100D444B2 /* tabBarSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9802B1456020100D444B2 /* tabBarSettings.png */; };
+		D0B980421456020100D444B2 /* tabBarSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9802C1456020100D444B2 /* tabBarSettings@2x.png */; };
+		D0B980431456020100D444B2 /* tabBarInvites.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9802D1456020100D444B2 /* tabBarInvites.png */; };
+		D0B980441456020100D444B2 /* tabBarInvites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9802E1456020100D444B2 /* tabBarInvites@2x.png */; };
+		D0B980451456020100D444B2 /* tabBarAttending.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9802F1456020100D444B2 /* tabBarAttending.png */; };
+		D0B980461456020100D444B2 /* tabBarAttending@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980301456020100D444B2 /* tabBarAttending@2x.png */; };
+		D0B980471456020100D444B2 /* tabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980311456020100D444B2 /* tabBarBackground.png */; };
+		D0B980481456020100D444B2 /* tabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B980321456020100D444B2 /* tabBarBackground@2x.png */; };
+		D0B9804E1456035300D444B2 /* HollersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9804C1456035300D444B2 /* HollersViewController.m */; };
+		D0B9804F1456035300D444B2 /* HollersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B9804D1456035300D444B2 /* HollersViewController.xib */; };
+		D0B980531456037F00D444B2 /* CreateHollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B980511456037F00D444B2 /* CreateHollerViewController.m */; };
+		D0B980541456037F00D444B2 /* CreateHollerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B980521456037F00D444B2 /* CreateHollerViewController.xib */; };
+		D0B98058145603A900D444B2 /* GroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B98056145603A900D444B2 /* GroupsViewController.m */; };
+		D0B98059145603A900D444B2 /* GroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B98057145603A900D444B2 /* GroupsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +51,48 @@
 		D0B97FFD145600A800D444B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0B97FFF145600A800D444B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0B98001145600A800D444B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D0B98005145600A800D444B2 /* CustomTabBar-Info.plist */ = {isa = PBXFileReference; path = "CustomTabBar-Info.plist"; sourceTree = "<group>"; };
+		D0B98005145600A800D444B2 /* CustomTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTabBar-Info.plist"; sourceTree = "<group>"; };
 		D0B98007145600A800D444B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0B98009145600A800D444B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D0B9800B145600A800D444B2 /* CustomTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "CustomTabBar-Prefix.pch"; sourceTree = "<group>"; };
-		D0B9800C145600A800D444B2 /* HBAppDelegate.h */ = {isa = PBXFileReference; path = HBAppDelegate.h; sourceTree = "<group>"; };
+		D0B9800B145600A800D444B2 /* CustomTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		D0B9800C145600A800D444B2 /* HBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBAppDelegate.h; sourceTree = "<group>"; };
 		D0B9800D145600A800D444B2 /* HBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBAppDelegate.m; sourceTree = "<group>"; };
+		D0B98014145600EC00D444B2 /* HBCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCustomTabBar.h; sourceTree = "<group>"; };
+		D0B98015145600EC00D444B2 /* HBCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCustomTabBar.m; sourceTree = "<group>"; };
+		D0B98016145600EC00D444B2 /* HBCustomTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBCustomTabBar.xib; sourceTree = "<group>"; };
+		D0B98019145600F900D444B2 /* HBTabBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTabBarManager.h; sourceTree = "<group>"; };
+		D0B9801A145600F900D444B2 /* HBTabBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTabBarManager.m; sourceTree = "<group>"; };
+		D0B9801D1456020100D444B2 /* tabBarGroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarGroup.png; sourceTree = "<group>"; };
+		D0B9801E1456020100D444B2 /* tabBarGroup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarGroup@2x.png"; sourceTree = "<group>"; };
+		D0B9801F1456020100D444B2 /* tabBarGroupSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarGroupSelected.png; sourceTree = "<group>"; };
+		D0B980201456020100D444B2 /* tabBarGroupSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarGroupSelected@2x.png"; sourceTree = "<group>"; };
+		D0B980211456020100D444B2 /* tabBarGroups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarGroups.png; sourceTree = "<group>"; };
+		D0B980221456020100D444B2 /* tabBarGroups@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarGroups@2x.png"; sourceTree = "<group>"; };
+		D0B980231456020100D444B2 /* tabBarGroupsSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarGroupsSelected.png; sourceTree = "<group>"; };
+		D0B980241456020100D444B2 /* tabBarGroupsSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarGroupsSelected@2x.png"; sourceTree = "<group>"; };
+		D0B980251456020100D444B2 /* tabBarHollers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarHollers.png; sourceTree = "<group>"; };
+		D0B980261456020100D444B2 /* tabBarHollers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarHollers@2x.png"; sourceTree = "<group>"; };
+		D0B980271456020100D444B2 /* tabBarHollersSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarHollersSelected.png; sourceTree = "<group>"; };
+		D0B980281456020100D444B2 /* tabBarHollersSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarHollersSelected@2x.png"; sourceTree = "<group>"; };
+		D0B980291456020100D444B2 /* tabBarHollerLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarHollerLogo.png; sourceTree = "<group>"; };
+		D0B9802A1456020100D444B2 /* tabBarHollerLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarHollerLogo@2x.png"; sourceTree = "<group>"; };
+		D0B9802B1456020100D444B2 /* tabBarSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarSettings.png; sourceTree = "<group>"; };
+		D0B9802C1456020100D444B2 /* tabBarSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarSettings@2x.png"; sourceTree = "<group>"; };
+		D0B9802D1456020100D444B2 /* tabBarInvites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarInvites.png; sourceTree = "<group>"; };
+		D0B9802E1456020100D444B2 /* tabBarInvites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarInvites@2x.png"; sourceTree = "<group>"; };
+		D0B9802F1456020100D444B2 /* tabBarAttending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarAttending.png; sourceTree = "<group>"; };
+		D0B980301456020100D444B2 /* tabBarAttending@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarAttending@2x.png"; sourceTree = "<group>"; };
+		D0B980311456020100D444B2 /* tabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBackground.png; sourceTree = "<group>"; };
+		D0B980321456020100D444B2 /* tabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBackground@2x.png"; sourceTree = "<group>"; };
+		D0B9804B1456035300D444B2 /* HollersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HollersViewController.h; sourceTree = "<group>"; };
+		D0B9804C1456035300D444B2 /* HollersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HollersViewController.m; sourceTree = "<group>"; };
+		D0B9804D1456035300D444B2 /* HollersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HollersViewController.xib; sourceTree = "<group>"; };
+		D0B980501456037F00D444B2 /* CreateHollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateHollerViewController.h; sourceTree = "<group>"; };
+		D0B980511456037F00D444B2 /* CreateHollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateHollerViewController.m; sourceTree = "<group>"; };
+		D0B980521456037F00D444B2 /* CreateHollerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateHollerViewController.xib; sourceTree = "<group>"; };
+		D0B98055145603A800D444B2 /* GroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsViewController.h; sourceTree = "<group>"; };
+		D0B98056145603A900D444B2 /* GroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsViewController.m; sourceTree = "<group>"; };
+		D0B98057145603A900D444B2 /* GroupsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +139,8 @@
 		D0B98003145600A800D444B2 /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				D0B9804A145602D000D444B2 /* Custom Tab Bar */,
+				D0B98049145602C700D444B2 /* View Controllers */,
 				D0B9800C145600A800D444B2 /* HBAppDelegate.h */,
 				D0B9800D145600A800D444B2 /* HBAppDelegate.m */,
 				D0B98004145600A800D444B2 /* Supporting Files */,
@@ -82,12 +151,70 @@
 		D0B98004145600A800D444B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0B9801C145601D300D444B2 /* Images */,
 				D0B98005145600A800D444B2 /* CustomTabBar-Info.plist */,
 				D0B98006145600A800D444B2 /* InfoPlist.strings */,
 				D0B98009145600A800D444B2 /* main.m */,
 				D0B9800B145600A800D444B2 /* CustomTabBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B9801C145601D300D444B2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9801D1456020100D444B2 /* tabBarGroup.png */,
+				D0B9801E1456020100D444B2 /* tabBarGroup@2x.png */,
+				D0B9801F1456020100D444B2 /* tabBarGroupSelected.png */,
+				D0B980201456020100D444B2 /* tabBarGroupSelected@2x.png */,
+				D0B980211456020100D444B2 /* tabBarGroups.png */,
+				D0B980221456020100D444B2 /* tabBarGroups@2x.png */,
+				D0B980231456020100D444B2 /* tabBarGroupsSelected.png */,
+				D0B980241456020100D444B2 /* tabBarGroupsSelected@2x.png */,
+				D0B980251456020100D444B2 /* tabBarHollers.png */,
+				D0B980261456020100D444B2 /* tabBarHollers@2x.png */,
+				D0B980271456020100D444B2 /* tabBarHollersSelected.png */,
+				D0B980281456020100D444B2 /* tabBarHollersSelected@2x.png */,
+				D0B980291456020100D444B2 /* tabBarHollerLogo.png */,
+				D0B9802A1456020100D444B2 /* tabBarHollerLogo@2x.png */,
+				D0B9802B1456020100D444B2 /* tabBarSettings.png */,
+				D0B9802C1456020100D444B2 /* tabBarSettings@2x.png */,
+				D0B9802D1456020100D444B2 /* tabBarInvites.png */,
+				D0B9802E1456020100D444B2 /* tabBarInvites@2x.png */,
+				D0B9802F1456020100D444B2 /* tabBarAttending.png */,
+				D0B980301456020100D444B2 /* tabBarAttending@2x.png */,
+				D0B980311456020100D444B2 /* tabBarBackground.png */,
+				D0B980321456020100D444B2 /* tabBarBackground@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D0B98049145602C700D444B2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9804B1456035300D444B2 /* HollersViewController.h */,
+				D0B9804C1456035300D444B2 /* HollersViewController.m */,
+				D0B9804D1456035300D444B2 /* HollersViewController.xib */,
+				D0B980501456037F00D444B2 /* CreateHollerViewController.h */,
+				D0B980511456037F00D444B2 /* CreateHollerViewController.m */,
+				D0B980521456037F00D444B2 /* CreateHollerViewController.xib */,
+				D0B98055145603A800D444B2 /* GroupsViewController.h */,
+				D0B98056145603A900D444B2 /* GroupsViewController.m */,
+				D0B98057145603A900D444B2 /* GroupsViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D0B9804A145602D000D444B2 /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D0B98019145600F900D444B2 /* HBTabBarManager.h */,
+				D0B9801A145600F900D444B2 /* HBTabBarManager.m */,
+				D0B98014145600EC00D444B2 /* HBCustomTabBar.h */,
+				D0B98015145600EC00D444B2 /* HBCustomTabBar.m */,
+				D0B98016145600EC00D444B2 /* HBCustomTabBar.xib */,
+			);
+			name = "Custom Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +268,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B98008145600A800D444B2 /* InfoPlist.strings in Resources */,
+				D0B98018145600EC00D444B2 /* HBCustomTabBar.xib in Resources */,
+				D0B980331456020100D444B2 /* tabBarGroup.png in Resources */,
+				D0B980341456020100D444B2 /* tabBarGroup@2x.png in Resources */,
+				D0B980351456020100D444B2 /* tabBarGroupSelected.png in Resources */,
+				D0B980361456020100D444B2 /* tabBarGroupSelected@2x.png in Resources */,
+				D0B980371456020100D444B2 /* tabBarGroups.png in Resources */,
+				D0B980381456020100D444B2 /* tabBarGroups@2x.png in Resources */,
+				D0B980391456020100D444B2 /* tabBarGroupsSelected.png in Resources */,
+				D0B9803A1456020100D444B2 /* tabBarGroupsSelected@2x.png in Resources */,
+				D0B9803B1456020100D444B2 /* tabBarHollers.png in Resources */,
+				D0B9803C1456020100D444B2 /* tabBarHollers@2x.png in Resources */,
+				D0B9803D1456020100D444B2 /* tabBarHollersSelected.png in Resources */,
+				D0B9803E1456020100D444B2 /* tabBarHollersSelected@2x.png in Resources */,
+				D0B9803F1456020100D444B2 /* tabBarHollerLogo.png in Resources */,
+				D0B980401456020100D444B2 /* tabBarHollerLogo@2x.png in Resources */,
+				D0B980411456020100D444B2 /* tabBarSettings.png in Resources */,
+				D0B980421456020100D444B2 /* tabBarSettings@2x.png in Resources */,
+				D0B980431456020100D444B2 /* tabBarInvites.png in Resources */,
+				D0B980441456020100D444B2 /* tabBarInvites@2x.png in Resources */,
+				D0B980451456020100D444B2 /* tabBarAttending.png in Resources */,
+				D0B980461456020100D444B2 /* tabBarAttending@2x.png in Resources */,
+				D0B980471456020100D444B2 /* tabBarBackground.png in Resources */,
+				D0B980481456020100D444B2 /* tabBarBackground@2x.png in Resources */,
+				D0B9804F1456035300D444B2 /* HollersViewController.xib in Resources */,
+				D0B980541456037F00D444B2 /* CreateHollerViewController.xib in Resources */,
+				D0B98059145603A900D444B2 /* GroupsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +306,11 @@
 			files = (
 				D0B9800A145600A800D444B2 /* main.m in Sources */,
 				D0B9800E145600A800D444B2 /* HBAppDelegate.m in Sources */,
+				D0B98017145600EC00D444B2 /* HBCustomTabBar.m in Sources */,
+				D0B9801B145600F900D444B2 /* HBTabBarManager.m in Sources */,
+				D0B9804E1456035300D444B2 /* HollersViewController.m in Sources */,
+				D0B980531456037F00D444B2 /* CreateHollerViewController.m in Sources */,
+				D0B98058145603A900D444B2 /* GroupsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTabBar/CustomTabBar-Prefix.pch";
 				INFOPLIST_FILE = "CustomTabBar/CustomTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -232,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomTabBar/CustomTabBar-Prefix.pch";
 				INFOPLIST_FILE = "CustomTabBar/CustomTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
