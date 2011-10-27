@@ -73,8 +73,15 @@
     tabBar = [[HBTabBarManager alloc]initWithViewController:self topView:self.view delegate:self selectedIndex:0];
 }
 
+- (void)dealloc
+{
+    [tabBar release];
+    [super dealloc];
+}
+
 - (void)viewDidUnload
 {
+    self.tabBar = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
